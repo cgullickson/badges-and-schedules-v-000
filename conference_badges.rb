@@ -19,7 +19,7 @@ def assign_rooms (names)
   room_assignments
 end
 
-def printer
+def printer (names)
   batch_badge_creator (names)
     names.each do |value|
       puts value
