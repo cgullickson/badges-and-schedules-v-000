@@ -18,3 +18,14 @@ def assign_rooms (names)
   end
   room_assignments
 end
+
+def printer
+  batch_badge_creator (names)
+    names.each do |value|
+      puts value
+    end
+  assign_rooms (names)
+    names.each do |value|
+      puts value
+    end
+end
